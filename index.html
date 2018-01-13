@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+  <title>Order Form</title>
+  <!--Typically, I'd put styling in a separate file, but to keep this example simple,
+  I'm using inline styling.-->
+  <style>
+    .angular-google-map-container {
+      height: 400px;
+    }
+
+    .container {
+      border: 1px solid lightgray;
+      margin-bottom: 15px;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <order-form></order-form>
+  <!--I used the quickstart instructions for angular-google-maps to determine which libraries to load:
+  http://angular-ui.github.io/angular-google-maps/#!/quickstart-->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-simple-logger/0.1.7/angular-simple-logger.min.js"></script>
+  <script src='https://maps.googleapis.com/maps/api/js?sensor=false'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.4.1/angular-google-maps.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

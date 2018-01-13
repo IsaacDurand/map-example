@@ -1,0 +1,14 @@
+<div ng-if="$ctrl.visible">
+  <h2>Map Tab</h2>
+  <p>Add form fields specific to product A here.</p>
+  <ui-gmap-google-map center="$ctrl.map.center"
+    zoom="$ctrl.map.zoom">
+  </ui-gmap-google-map>
+  <div class="container">
+    <label>
+      What's your favorite city on this map?
+      <input type="text"
+        ng-model="$ctrl.favoriteCity">
+    </label>
+  </div>
+</div>

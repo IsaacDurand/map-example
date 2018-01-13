@@ -1,0 +1,14 @@
+<div>
+  <div class="container">
+    <h1>Tabbed Form</h1>
+    <label>
+      <input type="checkbox"
+        ng-model="vm.mapTabVisible">
+      Show map tab
+    </label>
+  </div>
+  <div class="container">
+    <map-tab visible="vm.mapTabVisible"></map-tab>
+    <other-tab ng-hide="vm.mapTabVisible"></other-tab>
+  </div>
+</div>
