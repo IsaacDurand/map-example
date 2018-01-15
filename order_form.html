@@ -8,7 +8,7 @@
     </label>
   </div>
   <div class="container">
-    <map-tab visible="vm.mapTabVisible"></map-tab>
-    <other-tab ng-hide="vm.mapTabVisible"></other-tab>
+    <map-tab ng-if="vm.mapTabVisible"></map-tab>
+    <other-tab ng-if="!vm.mapTabVisible"></other-tab>
   </div>
 </div>
