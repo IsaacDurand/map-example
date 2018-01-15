@@ -20,14 +20,6 @@ As I built out these components, I'd also add bindings and controllers as needed
         },
         zoom: 9,
       };
-
-      this.$onInit = function () {
-        console.log('initializing mapTab');
-      };
-
-      this.$onDestroy = function () {
-        console.log('destroying mapTab');
-      };
     },
   })
   .component('otherTab', {
