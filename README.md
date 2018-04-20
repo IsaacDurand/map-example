@@ -6,3 +6,6 @@ To run this code on your machine:
 1. From the command line, run `python -m SimpleHTTPServer`
   * If you simply open `index.html` in your browser, the AngularJS component templates may not load.
 1. In your browser, visit [localhost:8000](http://localhost:8000/) (or whichever port SimpleHTTPServer is using)
+
+First commit
+Second commit
